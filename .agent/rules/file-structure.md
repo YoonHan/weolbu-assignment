@@ -74,20 +74,20 @@ components/[category]/[ComponentName]/
 
 ```tsx
 // 좋은 예
-import DialogHeader from '@/components/ui/Dialog/DialogHeader'
+import DialogHeader from '@/lib/components/ui/Dialog/DialogHeader'
 
 // 나쁜 예: barrel file 사용
-import { DialogHeader } from '@/components/ui/Dialog'
+import { DialogHeader } from '@/lib/components/ui/Dialog'
 ```
 
 ## 경로 별칭
 
 - `@/*` 별칭을 사용하여 절대 경로로 import할 수 있습니다.
 - 예시:
-  - `@/components/ui/Button/Button`
-  - `@/components/ui/Dialog/Dialog`
-  - `@/components/shared/SearchBar/SearchBar`
-  - `@/components/page/HomePage/HomePage`
+  - `@/lib/components/ui/Button/Button`
+  - `@/lib/components/ui/Dialog/Dialog`
+  - `@/lib/components/shared/SearchBar/SearchBar`
+  - `@/lib/components/page/HomePage/HomePage`
   - `@/hooks/useResizeObserver`
-  - `@/constants/api`
+  - `@/lib/constants/api`
   - `@/utils/http`

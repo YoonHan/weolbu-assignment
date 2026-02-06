@@ -13,13 +13,20 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
+    "baseUrl": ".",
     "plugins": [
       {
         "name": "next"
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/apis/*": ["lib/apis/*"],
+      "@/components/*": ["lib/components/*"],
+      "@/constants/*": ["lib/constants/*"],
+      "@/context/*": ["lib/context/*"],
+      "@/queries/*": ["lib/queries/*"],
+      "@/types/*": ["lib/types/*"]
     }
   },
   "include": [

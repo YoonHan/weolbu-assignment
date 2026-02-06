@@ -97,7 +97,7 @@ interface Config {
 
 ```typescript
 // 좋은 예
-import { Button } from '@/components/Button'
+import { Button } from '@/lib/components/Button'
 import { useAuth } from '@/hooks/useAuth'
 
 // 나쁜 예
