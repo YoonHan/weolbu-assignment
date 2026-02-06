@@ -4,7 +4,7 @@ import { usePathname, useRouter } from 'next/navigation'
 import React, { createContext, useContext, useEffect, useState } from 'react'
 
 import { getMeInternal } from '@/lib/apis/auth-internal'
-import { UserInfo } from '@/lib/types/api'
+import { UserInfo } from '@/lib/types/api/auth'
 
 interface AuthContextType {
   user: UserInfo | null
