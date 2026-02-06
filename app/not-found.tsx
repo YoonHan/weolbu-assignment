@@ -35,11 +35,11 @@ export default function NotFound() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="relative mt-8 space-y-6"
         >
-          <h2 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
+          <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-5xl">
             페이지를 찾을 수 없습니다
           </h2>
           <div className="mx-auto max-w-lg space-y-2 text-balance text-muted-foreground">
-            <p>요청하신 페이지가 삭제되었거나, 이름이 변경되었을 수 있습니다.</p>
+            <p>요청하신 페이지가 삭제되었거나 <br /> 이름이 변경되었을 수 있습니다.</p>
             <p>입력하신 주소가 정확한지 다시 한번 확인해 주세요.</p>
           </div>
         </motion.div>
